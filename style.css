@@ -45,21 +45,50 @@
     width: 100%;
 }
 
+.box-forma1{
+    position: absolute;
+    width: 82%;
+    right: 31%;
+    overflow: hidden;
+}
+
+.forma1{
+    margin-left: -80px;
+    width: 391px;
+}
+
+.box-forma2{
+    width: 69.5%;
+    overflow: hidden;
+    position: absolute;
+    left: 43%;
+    top: -9%;
+}
+
+.forma2{
+    width: 593px;
+    height: 30rem;
+    margin-left: 43%;
+
+}
+
 .container-main{
     max-width: 1240px;
     width: 80%;
     height: 30rem;
     margin: 0 auto;
-    padding: 80px 0px 0px 0px;
+    padding: 35px 0px 0px 0px;
 }
 
 .box{
+    position: relative;
     width: 100%;
     height: 22rem;
     display: flex;
 }
 
 .group{
+    position: relative;
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -113,13 +142,15 @@
 }
 
 .box-copo{
+    position: relative;
     display: flex;
     justify-content: center;
     width: 30%;
+    z-index: 3;
 }
 
 .copo{
-    width: 119px;
+    width: 147px;
 }
 
 .box-scroll{
